@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-title{
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.text-primary{
+    color: #FD6E0A;
+}
+
+.btn-primary{
+    height: 64px;
+    padding: 18px 36px;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: #FD6E0A;
+    color: #fff;
+    border: none;
+    border-radius: 5%;
+}
+
+.header{
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+/*banner styles*/
+
+.banner{
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.banner-subtitle{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.banner-description{
+    font-size: 18px;
+    color: #757575;
+}
+
+.banner div .btn-primary{
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.banner div .btn-primary a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.banner div .btn-contact{
+    margin-top: 30px;
+    height: 64px;
+    padding: 18px 36px;
+    font-size: 20px;
+    font-weight: 900;
+    border: 2px solid #FD6E0A;
+    border-radius: 5%;
+    background-color: #FFF8F3;
+}
+
+.banner div .btn-contact a{
+    text-decoration: none;
+    color: #FD6E0A;
+}
