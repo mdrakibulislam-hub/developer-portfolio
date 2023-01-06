@@ -46,6 +46,13 @@ nav ul li{
     margin-right: 50px;
 }
 
+
+/* section styles */
+
+section{
+    margin: 50px 0 50px 0;
+}
+
 /*banner styles*/
 
 .banner{
@@ -148,20 +155,22 @@ main{
 
 .skill-container{
     display: flex;
+    gap: 24px;
 }
 
 .skill{
     padding: 30px;
-    margin-right: 20px;
     background-color: aliceblue;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
+/*
 .skill:last-child{
     margin-right: 0;
+    */
 }
 
-.skill-title{
+.skill-container .skill .skill-title{
     font-size: 20px;
     font-weight: 700;
     color: #181818;
@@ -172,4 +181,80 @@ main{
     font-size: 16px;
     font-weight: 400;
     color: #757575;
+}
+
+
+
+/* resume styles */
+
+.resume-content{
+    display: flex;
+    gap: 25px;
+}
+
+.resume-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.resume-item .title{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+    margin-top: 20px;
+}
+
+.resume-item .sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+}
+
+.resume-item .description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    padding-right: 30px;
+    margin: 20px 0 20px 0;
+    
+}
+
+
+.resume-section .resume-button{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.resume-section .resume-button .btn-primary a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* contact styles */
+
+footer{
+    
+    background-color: #FFF8F3;
+}
+
+.contact{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 100px;
+    padding: 130px 130px;
+    
+}
+
+.contact a{
+    margin-right: 10px;
+}
+
+.contact input, textarea{
+    height: 64px;
+    border: none;
+    width: 100%;
+    margin-bottom: 24px;
 }
