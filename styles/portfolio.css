@@ -100,7 +100,7 @@ nav ul li{
 /* main section */
 
 main{
-    max-width: 1540px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -142,4 +142,34 @@ main{
     font-size: 20;
     font-weight: 700;
     color: #474747;
+}
+
+/*skill container styles*/
+
+.skill-container{
+    display: flex;
+}
+
+.skill{
+    padding: 30px;
+    margin-right: 20px;
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.skill:last-child{
+    margin-right: 0;
+}
+
+.skill-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #181818;
+    margin: 20px 0;
+}
+
+.skill-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
 }
